@@ -1,0 +1,79 @@
+.jsgames-main {
+    text-align: center;
+    color: brown;
+}
+
+#vowelgame {
+
+}
+
+#voweltable {
+    margin: auto;
+    width: 15%;
+    margin-bottom: 2em;
+}
+
+#vowelgame {
+    margin-top: 2em;
+}
+
+#voweltitle {
+    margin-top: 2em;
+}
+
+#codelink {
+    margin-top: 4em;
+    width: 10%;
+    margin-left: 45%;
+}
+
+#codetext {
+    text-align: center;
+}
+
+
+/*******************
+NAVIGATION
+********************/
+
+
+.main-nav  {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	z-index: 10;
+	}
+
+
+
+.nav {
+	flex-grow: 1;
+	padding: 10px 0;
+	}
+
+.nav-one,
+.nav-two,
+.nav-three {
+	text-align: center;
+	max-width: 100px;
+	}
+
+nav a { 
+	font-weight: 800;
+	padding: 15px 10px;
+	}
+
+
+/*******************
+BODY
+********************/
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	}
+
+.main-row	{
+	flex: 1;
+	}
